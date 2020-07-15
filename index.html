@@ -1,0 +1,972 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width"/>
+        <!--<title>Dexterous Group Aug 2018 Newsletter</title>-->
+
+        <style type="text/css">
+			
+			body, #bodyTable, #bodyCell {
+				height:100% !important; 
+				margin:0; 
+				padding:0; 
+				width:100% !important;
+				background-color: #f5f5f5;
+			}
+			
+			table {
+				border-collapse:collapse;
+			}
+
+			img, a img {
+				border:0; outline:none; 
+				text-decoration:none;
+			}
+
+			h1, h2, h3, h4, h5, h6 {
+				margin:0; 
+				padding:0;
+			}
+
+			p {
+				margin: 1em 0;
+			}
+
+			.ReadMsgBody {
+				width:100%;
+			} 
+
+			.ExternalClass {
+				width:100%;
+			} /* Force Hotmail/Outlook.com to display emails at full width. */
+			
+			.ExternalClass, 
+			.ExternalClass p, 
+			.ExternalClass span, 
+			.ExternalClass font, 
+			.ExternalClass td, 
+			.ExternalClass div {
+				line-height:100%;
+			} /* Force Hotmail/Outlook.com to display line heights normally. */
+			
+			table, td {
+				mso-table-lspace:0pt; 
+				mso-table-rspace:0pt;
+			} /* Remove spacing between tables in Outlook 2007 and up. */
+			
+			#outlook a {
+				padding:0;
+			} /* Force Outlook 2007 and up to provide a "view in browser" message. */
+			
+			img {
+				-ms-interpolation-mode: bicubic;
+			} /* Force IE to smoothly render resized images. */
+			
+			body, table, td, p, a, li, blockquote {
+				-ms-text-size-adjust:100%; 
+				-webkit-text-size-adjust:100%;
+			} /* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */
+
+			/*////// FRAMEWORK STYLES //////*/
+			.flexibleContainerCell {
+				padding-top:20px; 
+				padding-right:20px; 
+				padding-left:20px;
+			}
+
+			.flexibleImage {
+				height:auto;
+			}
+
+			.bottomShim {
+				padding-bottom:20px;
+			}
+			.imageContent, .imageContentLast {
+				padding-bottom:20px;
+			}
+			.nestedContainerCell {
+				padding-top:20px;
+				padding-right:20px;
+				padding-left:20px;
+
+			}
+				background-color:#F5F5F5;
+
+			/*////// GENERAL STYLES //////*/
+			body, #bodyTable {
+
+			}
+			#bodyCell {
+				padding-top:40px;
+				padding-bottom:40px;
+
+			}
+			#emailBody {
+				background-color:#FFFFFF;
+				border:0px solid #DDDDDD;
+				border-collapse:collapse;
+				border-radius:4px;
+
+			}
+			h1, h2, h3, h4, h5, h6 {
+				color: #00A79D;
+				font-family:Helvetica;
+				font-size:20px;
+				line-height:125%;
+				text-align: center;
+
+			}
+
+			h2{
+				color: #00A79D;
+				font-family:Helvetica;
+				font-size:25px;
+				line-height:125%;
+				text-align:center;
+
+			}
+
+			.textContent, .textContentLast {
+				color:#404040;
+				font-family:Helvetica;
+				font-size:14px;
+				line-height:180%;
+				text-align:justify;
+				padding-bottom:20px;
+
+			}
+			.textContent a, .textContentLast a {
+				color:#00a79d;
+				text-decoration:underline;
+
+			}
+			.nestedContainer {
+				background-color:#E5E5E5;
+				border:1px solid #CCCCCC;
+
+			}
+			.emailButton {
+				background-color:#8DC63F;
+				border-collapse:collapse;
+				border-radius:4px;
+
+			}
+			.buttonContent {
+				color:#FFFFFF;
+				font-family:Helvetica;
+				font-size:12px;
+				font-weight:bold;
+				line-height:100%;
+				padding:15px;
+				text-align:center;
+
+			}
+			.buttonContent a {
+				color:#FFFFFF;
+				display:block;
+				text-decoration:none;
+
+			}
+			.emailCalendar {
+				background-color:#FFFFFF;
+				border:1px solid #CCCCCC;
+
+			}
+			.emailCalendarMonth {
+				background-color:#2C9AB7;
+				color:#FFFFFF;
+				font-family:Helvetica, Arial, sans-serif;
+				font-size:16px;
+				font-weight:bold;
+			 	padding-top:10px;
+				padding-bottom:10px;
+				text-align:center;
+
+			}
+			.emailCalendarDay {
+				color:#2C9AB7;
+				font-family:Helvetica, Arial, sans-serif;
+				font-size:60px;
+				font-weight:bold;
+				line-height:100%;
+				padding-top:20px;
+				padding-bottom:20px;
+				text-align:center;
+
+			}
+
+			/*////// MOBILE STYLES //////*/
+			@media only screen and (max-width: 480px) {
+
+				/*////// CLIENT-SPECIFIC STYLES //////*/
+				body {
+					width:100% !important;
+					min-width:100% !important;
+
+					} /* Force iOS Mail to render the email at full width. */
+
+				/*////// FRAMEWORK STYLES //////*/
+				/*
+					CSS selectors are written in attribute
+					selector format to prevent Yahoo Mail
+					from rendering media query styles on
+					desktop.
+				*/
+				table[id="emailBody"], table[class="flexibleContainer"] {
+					width:100% !important;
+
+				}
+
+				/*
+					The following style rule makes any
+					image classed with 'flexibleImage'
+					fluid when the query activates.
+					Make sure you add an inline max-width
+					to those images to prevent them
+					from blowing out. 
+				*/
+				img[class="flexibleImage"] {
+					height:auto !important;
+					width:100% !important;
+
+				}
+
+				/*
+					Make buttons in the email span the
+					full width of their container, allowing
+					for left- or right-handed ease of use.
+				*/
+				table[class="emailButton"] {
+					width:100% !important;
+
+				}
+				td[class="buttonContent"] {
+					padding:0 !important;
+
+				}
+				td[class="buttonContent"] a {
+					padding:15px !important;
+
+				}
+
+				td[class="textContentLast"], td[class="imageContentLast"] {
+					padding-top:20px !important;
+
+				}
+
+				/*////// GENERAL STYLES //////*/
+				td[id="bodyCell"] {
+					padding-top:10px !important;
+					padding-right:10px !important;
+					padding-left:10px !important;
+
+				}
+			
+			}
+
+			#noticeSection {
+				font-size: 10px;
+			}
+		</style>
+        
+        </head>
+    	<body>
+    	<center>
+        	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+            	<tbody>
+            		<tr>
+            			<td align="center" valign="top" id="bodyCell">
+            				<table border="0" cellpadding="0" cellspacing="0" width="600" id="emailBody">
+            					<tbody>
+            						<tr>
+            							<td align="center" valign="top">
+            								<table style="background-color:#fafafa" border="0" cellpadding="0" cellspacing="0" width="100%">
+            									<tbody>
+            										<tr>
+            											<td align="center" valign="top">
+            												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            													<tbody>
+            														<tr>
+            															<td align="center" valign="top" width="600" class="flexibleImage">
+            														
+            																<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            																	<tbody>
+            																		<tr align="center" >
+																						<td valign="top" class="textContent" id="noticeSection">
+																							<br>
+																							<center>
+																									Can't read or see images ? <a style="text-decoration: none" href="$[LI:VIEWINBROWSER]$">view in browser</a>
+																							</center>
+																						</td>
+																					</tr>
+																				</tbody>
+            																</table>
+            															</td>
+            														</tr>
+            													</tbody>
+            												</table>
+            											</td>
+            										</tr>
+            									</tbody>
+            								</table>
+            							</td>
+            						</tr>
+            						<tr>
+            							<td align="center" valign="top">
+            								
+            								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            									<tbody>
+            										<tr>
+            											<td align="center" valign="top">
+            												
+            												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            													<tbody>
+            														<tr>
+            															<td align="center" valign="top" width="600" class="flexibleImage">
+            															
+            																<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            																	<tbody>
+            																		<tr>
+            																			<td valign="top" class="imageContent">
+            																				<a href="https://www.dexterousgroup.com.au/?siq_name=$[FNAME]$&siq_email=$[EMAIL]$" target="_blank"><img width="600" max-width="600px" class="flexibleImage" src="https://campaign-image.com/zohocampaigns/newsletter_campaign_banner_2020_end_of_year_revision_zc_v8_284888000009485008.jpg"></a>
+            																			</td>
+            																		</tr>
+            																</table>
+            															</td>
+            														</tr>
+            													</tbody>
+            												</table>
+            											</td>
+            										</tr>
+            									</tbody>
+            								</table>
+            							</td>
+            						</tr>
+            						<tr>
+            							<td align="center" valign="top">
+            								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            									<tbody>
+            										<tr>
+            											<td align="center" valign="top">
+            												<!-- FLEXIBLE TABLE CONTAINER -->
+            												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            													<tbody>
+            														<tr>
+            															<td align="center" valign="top" width="600" class="flexibleContainerCell">
+            															<!-- CONTENT TABLE -->
+            																<!-- The real content goes here :D -->
+            																<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            																	<tbody>
+            																		<tr>
+            																			<td valign="top" class="textContent" style="padding-bottom: 0">
+																							Hello again $[FNAME|Customer|Guest]$,
+																							<br><br>
+																							We’ve been in touch a lot recently, haven’t we? The COVID-19 pandemic has brought us 
+																							(safely) closer together than ever before. It has reminded companies all over the world 
+																							how important it is to get the basics in business right: know your finances and keep 
+																							connected to your customers.
+																							<br><br>
+																							As accountants, we’ve been busier than ever before. Keeping up-to-date on the latest 
+																							government subsidies, whilst helping minimise the economic impact of this crisis to 
+																							businesses.
+																							<br><br>
+																							Still, it’s you sharing your success to other businesses that helps keep our 
+																							lights on. So, we’d welcome your recommendation about Dexterous at one of the 
+																							following sites. It takes just a minute, thanks in advance! 
+																							<br><br>
+            																			</td>
+            																		</tr>
+																				</tbody>	
+            																</table>
+            															</td>
+            														</tr>
+            													</tbody>
+            												</table>
+            											</td>
+            										</tr>
+            									</tbody>
+            								</table>
+            							</td>
+            						</tr>
+            						<!-- trueLocal button word of mouth -->
+            						<tr>
+            							<td align="center" valign="top">
+            								<!-- for every table there must be the following : tbody, trow, tdata -->
+            								<!-- CENTERING TABLE -->
+            								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            									<tbody>
+            										<tr>
+            											<td align="center" valign="top">
+            												<!-- FLEXIBLE TABLE CONTAINER -->
+            												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            													<tbody>
+            														<tr>
+            															<td align="center" valign="top" width="600" class="flexibleImage">
+            															<!-- CONTENT TABLE -->
+            																<!-- The real content goes here :D -->
+            																<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            																	<tbody>
+            																		<tr align="center" >
+																						<td style="border-bottom: 1px solid #2ab181; background-color: #f7f8f9;padding-top: 3%; padding-bottom: 3%;  ">
+																							<a style="margin:0 7px 0 7px" href="https://www.wordofmouth.com.au/reviews/dexterous-group" target="_blank"><img  src="https://campaign-image.com/zohocampaigns/word_of_mouth_logo_newsletter_button_large_zc_v8_284888000009485008.png"/></a>
+																							<a style="margin:0 7px 0 7px" href="https://www.truelocal.com.au/business/the-dexterous-group/neutral-bay" target="_blank"><img  src="https://campaign-image.com/zohocampaigns/true_local_logo_newsletter_button_large_zc_v8_284888000009485008.png"/></a>
+																						</td>
+																					</tr>
+																				</tbody>
+            																</table>
+            															</td>
+            														</tr>
+            													</tbody>
+            												</table>
+            											</td>
+            										</tr>
+            									</tbody>
+            								</table>
+            							</td>
+            						</tr>
+            						<!--Australian Small Business Champion Awards Finalist-->
+									<tr>
+            							<td align="center" valign="top">
+            								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            									<tbody>
+            										<tr>
+            											<td align="center" valign="top">
+            												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            													<tbody>
+            														<tr>
+            															<td style="padding-bottom: 20px; padding-top: 40px;border-top: 1px solid #2ab181;"  align="center" valign="top" width="600" class="flexibleContainerCell">
+                                                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            																	<tbody>
+            																		<tr>
+            																			<td valign="top" class="textContent"  style="padding-bottom: 0">
+            																				<a style="text-decoration: none" href="https://www.dexterousgroup.com.au/what-is-an-ias-or-instalment-activity-statement/?siq_name=$[FNAME]$&siq_email=$[EMAIL]$" target="_blank">
+            																					<h3 style="margin-bottom: 1em;line-height: 31px">What is an IAS?</h3>
+            																				</a>
+            																			</td>
+            																		</tr>
+            																</table>
+                                                                            <!-- -- Article Content -- -->
+                                                                            <table width="200" align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            																<tbody>
+            																	<tr>
+            																		<td style="padding-top: 5px"  align="left" valign="top" class="imageContent">
+            																			<a href="https://www.dexterousgroup.com.au/what-is-an-ias-or-instalment-activity-statement/?siq_name=$[FNAME]$&siq_email=$[EMAIL]$" target="_blank"><img width="200" max-width="200px" class="flexibleImage" src="https://campaign-image.com/zohocampaigns/what_is_an_ias_latest_featured_zc_v3_284888000009485008.jpg"></a>
+            																		</td>
+            																	</tr>
+            																</tbody>
+            																</table>
+            																<table width="340" max-width="340px" align="right" border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            																	<tbody>
+            																		<tr>
+            																			<td valign="top" class="textContent" colspan="2">
+																							Taxation is littered with acronyms. If accounting isn’t your forte, navigating your way through them can steal valuable time from your day. In this popular blog, our Managing Director and Founding Partner, Nick Urry, outlines simply what it is and whether you need to pay attention to it for your business.
+																							<br>
+																							<a href="https://www.dexterousgroup.com.au/what-is-an-ias-or-instalment-activity-statement/?siq_name=$[FNAME]$&siq_email=$[EMAIL]$" target="_blank">Read more >></a> 
+																						</td>
+            																		</tr>
+            																		</tr>
+            																	</tbody>
+            																</table> 
+            															</td>
+            														</tr>
+            													</tbody>
+            												</table>
+            											</td>
+            										</tr>
+            									</tbody>
+            								</table>
+            							</td>
+            						</tr>
+            						<!-- Client in Focus -->
+            						<tr>
+            							<td align="center" valign="top">
+            								<!-- for every table there must be the following : tbody, trow, tdata -->
+            								<!-- CENTERING TABLE -->
+            								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            									<tbody>
+            										<tr>
+            											<td align="center" valign="top">
+            												<!-- FLEXIBLE TABLE CONTAINER -->
+            												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            													<tbody>
+            														<tr>
+            															<td style="padding-top:20px; background-color: #00A79D" align="center" valign="top" width="600" class="flexibleContainerCell">
+            															<!-- CONTENT TABLE -->
+            																<!-- The real content goes here :D -->
+            																<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            																	<tbody>
+            																		<tr>
+            																			<td valign="top" class="textContent">
+            																				<h3 style="color:white" >Client In Focus</h3>
+            																			</td>
+            																		</tr>
+            																</table>
+            															</td>
+            														</tr>
+            													</tbody>
+            												</table>
+            											</td>
+            										</tr>
+            									</tbody>
+            								</table>
+            							</td>
+            						</tr>
+									<tr>
+            							<td align="center" valign="top">
+            								
+            								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            									<tbody>
+            										<tr>
+            											<td align="center" valign="top">
+            												
+            												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            													<tbody>
+            														<tr>
+            															<td align="center" valign="top" width="600" class="flexibleImage">
+            															
+            																<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            																	<tbody>
+            																		<tr>
+            																			<td style="padding-bottom:0" valign="top" class="imageContent">
+            																				<a href="https://www.dexterousgroup.com.au/dexterous-labs-empowers-donor-republics-growth/?siq_name=$[FNAME]$&siq_email=$[EMAIL]$?siq_name=$[FNAME]$&siq_email=$[EMAIL]$" target="_blank"><img width="600" max-width="600px" class="flexibleImage" src="https://campaign-image.com/zohocampaigns/dexterous_labs_donor_republic_banner_zc_v13_284888000009485008.jpg"></a>
+            																			</td>
+            																		</tr>
+            																</table>
+            															</td>
+            														</tr>
+            													</tbody>
+            												</table>
+            											</td>
+            										</tr>
+            									</tbody>
+            								</table>
+            							</td>
+            						</tr>
+									<tr>
+            							<td align="center" valign="top">
+            								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            									<tbody>
+            										<tr>
+            											<td align="center" valign="top">
+            												<!-- FLEXIBLE TABLE CONTAINER -->
+            												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            													<tbody>
+            														<tr>
+            															<td align="center" valign="top" width="600" class="flexibleContainerCell">
+            															<!-- CONTENT TABLE -->
+            																<!-- The real content goes here :D -->
+            																<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            																	<tbody>
+            																		<tr>
+            																			<td  valign="top" class="textContent">
+            																				<h2 style="font-size: 20px">Dexterous Labs empowers Donor Republic’s growth</h2>
+																							<br>
+																							Eager to simplify their business compliance reporting, Donor Republic approached us to help 
+																							them find a better way. They wanted to do less number crunching and more 
+																							business growing – but with the same level of resources. 
+																							Using the power of Dexterous Labs, we helped tailor a dashboard for Donor Republic 
+																							that enables them to focus on their future.
+																						</td>
+            																		</tr>
+																				</tbody>	
+            																</table>
+            															</td>
+            														</tr>
+            													</tbody>
+            												</table>
+            											</td>
+            										</tr>
+            									</tbody>
+            								</table>
+            							</td>
+            						</tr>
+            						<tr>
+            							<td align="center" valign="top">
+            								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            									<tbody>
+            										<tr>
+            											<td align="center" valign="top">
+            												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            													<tbody>
+            														<tr>
+            															<td style="padding-bottom: 20px" align="center" valign="top" width="600" class="flexibleContainer">
+                                                                            <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            																	<tbody>
+            																		<tr>
+            																			<td align="center" valign="top" class="bottomShim">
+                                                                                			<table style="border:0" border="0" cellpadding="0" cellspacing="0" width="auto" class="emailButton">
+                                                                                    			<tbody>
+                                                                                    				<tr>
+                                                                                        				<td align="center" valign="middle" class="buttonContent">
+                                                                                            				<a style="line-height:1.5em" href="https://www.dexterousgroup.com.au/dexterous-labs-empowers-donor-republics-growth/?siq_name=$[FNAME]$&siq_email=$[EMAIL]$" target="_blank">READ MORE</a>
+                                                                                            			</td>
+                                                                                       				</tr>
+                                                                                   			 	</tbody>
+                                                                                			</table>
+                                                                               			</td>
+                                                                               		</tr>
+            																	</tbody>
+            																</table> 
+            															</td>
+            														</tr>
+            													</tbody>
+            												</table>
+            											</td>
+            										</tr>
+            									</tbody>
+            								</table>
+            							</td>
+            						</tr>
+            						
+            						<!-- I am making a profit yet I have no cash in the bank. Why? -->
+									<tr>
+            							<td align="center" valign="top">
+            								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            									<tbody>
+            										<tr>
+            											<td align="center" valign="top">
+            												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            													<tbody>
+            														<tr>
+            															<td style="padding-bottom: 20px; border-bottom: 1px solid #2ab181; padding-top: 40px;border-top: 1px solid #2ab181;"  align="center" valign="top" width="600" class="flexibleContainerCell">
+                                                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            																	<tbody>
+            																		<tr>
+            																			<td valign="top" class="textContent"  style="padding-bottom: 0">
+            																				<h3 style="margin-bottom: 1em;line-height: 31px">We’re Shortlisted - 2020 AFR Boss Most Innovative Companies</h3>
+            																			</td>
+            																		</tr>
+            																</table>
+                                                                            <!-- -- Article Content -- -->
+                                                                            <table width="200" align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            																<tbody>
+            																	<tr>
+            																		<td style="padding-top: 5px"  align="left" valign="top" class="imageContent">
+            																			<img width="200" max-width="200px" class="flexibleImage" src="https://campaign-image.com/zohocampaigns/afr_mic_logo_zc_v7_284888000009485008.png">
+            																		</td>
+            																	</tr>
+            																</tbody>
+            																</table>
+            																<table width="340" max-width="340px" align="right" border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            																	<tbody>
+            																		<tr>
+            																			<td valign="top" class="textContent" colspan="2">
+																							Dexterous’ innovative and cutting edge approach has been shortlisted in 
+																							the 2020 AFR Boss Most Innovative Companies List. 
+																							<br><br>
+																							Our cohesive 
+																							Sydney/Manila team, led by Nick Urry, are dedicated to delivering 
+																							accounting services to your business that make a real difference. 
+																							This recognition shows that it’s in our how , that sets us apart.
+																						</td>
+            																		</tr>
+            																		</tr>
+            																	</tbody>
+            																</table> 
+            															</td>
+            														</tr>
+            													</tbody>
+            												</table>
+            											</td>
+            										</tr>
+            									</tbody>
+            								</table>
+            							</td>
+            						</tr>
+            						<tr>
+            							<td align="center" valign="top">
+            								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            									<tbody>
+            										<tr>
+            											<td align="center" valign="top">
+            												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            													<tbody>
+            														<tr>
+            															<td style="padding-bottom: 20px; border-bottom: 1px solid #2ab181; padding-top: 40px;border-top: 1px solid #2ab181;"  align="center" valign="top" width="600" class="flexibleContainerCell">
+                                                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            																	<tbody>
+            																		<tr>
+            																			<td valign="top" class="textContent"  style="padding-bottom: 0">
+            																				<h3 style="margin-bottom: 1em;line-height: 31px">Here comes EOFY</h3>
+            																			</td>
+            																		</tr>
+            																</table>
+                                                                            <!-- -- Article Content -- -->
+                                                                            <table width="200" align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            																<tbody>
+            																	<tr>
+            																		<td style="padding-top: 5px"  align="left" valign="top" class="imageContent">
+            																			<img width="200" max-width="200px" class="flexibleImage" src="https://campaign-image.com/zohocampaigns/eofy_zc_v3_284888000009485008.jpg">
+            																		</td>
+            																	</tr>
+            																</tbody>
+            																</table>
+            																<table width="340" max-width="340px" align="right" border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            																	<tbody>
+            																		<tr>
+            																			<td valign="top" class="textContent" colspan="2">
+																							Heads up … it’s almost tax time! Get ahead of your obligations and 
+																							start compiling your business’ necessary paperwork now. If you are 
+																							lodging your own tax return, your submission will be due to the ATO by 
+																							31 October. 
+																							<br><br>
+																							If you want to engage an accountant to submit on your behalf, 
+																							<a href="https://calendly.com/dexterousgroup/income-tax-returns" target="_blank">
+																								book a consult
+																								</a> 
+																							with our team today. 
+																						</td>
+            																		</tr>
+            																		<tr>
+            																			<td align="left" valign="top" class="bottomShim">
+                                                                                			<table border="0" cellpadding="0" cellspacing="0" width="180" class="emailButton">
+                                                                                    			<tbody>
+                                                                                    				<tr>
+                                                                                        				<td align="center" valign="middle" class="buttonContent">
+                                                                                            				<a href="https://calendly.com/dexterousgroup/income-tax-returns" target="_blank">SCHEDULE A CALL</a>
+                                                                                            			</td>
+                                                                                       				</tr>
+                                                                                   			 	</tbody>
+                                                                                			</table>
+                                                                               			</td>
+                                                                               		</tr>
+            																	</tbody>
+            																</table> 
+            															</td>
+            														</tr>
+            													</tbody>
+            												</table>
+            											</td>
+            										</tr>
+            									</tbody>
+            								</table>
+            							</td>
+            						</tr>
+            						<!-- Here Comes EOFY -->
+            						<tr>
+            							<td align="center" valign="top">
+            								<!-- for every table there must be the following : tbody, trow, tdata -->
+            								<!-- CENTERING TABLE -->
+            								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            									<tbody>
+            										<tr>
+            											<td align="center" valign="top">
+            												<!-- FLEXIBLE TABLE CONTAINER -->
+            												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            													<tbody>
+            														<tr>
+            															<td style="padding-top:20px; background-color: #00A79D" align="center" valign="top" width="600" class="flexibleContainerCell">
+            															<!-- CONTENT TABLE -->
+            																<!-- The real content goes here :D -->
+            																<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            																	<tbody>
+            																		<tr>
+            																			<td valign="top" class="textContent">
+            																				<h3 style="color:white" >Upcoming Important Dates</h3>
+            																			</td>
+            																		</tr>
+            																</table>
+            															</td>
+            														</tr>
+            														<tr>
+            															<td align="center" valign="top" width="600" class="flexibleContainerCell">
+            															<!-- CONTENT TABLE -->
+            																<!-- The real content goes here :D -->
+            																<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            																	<tbody>
+            																		<tr>
+            																			<td valign="top" class="textContent">
+            																				<b>22 June</b>
+																							<br>
+																							<ul style="list-style-position: outside;">
+																							<li>
+																								Lodge and pay May 2020 monthly business activity  statement.
+																							</li>
+																							</ul>
+																							<b>25 June</b>
+																							<br>
+																							<ul style="list-style-position: outside;">
+																							<li>
+																								Lodge your fringe benefits tax.
+																							</li>
+																							<li>
+																								Lodge and pay quarter 3, 2019–20 PAYG instalment activity statement for head companies of consolidated groups.
+																							</li>
+																							</ul>
+																							<b>14 July</b>
+																							<br>
+																							<ul style="list-style-position: outside;">
+																							<li>
+																								Lodge your PAYG withholding payment summaries or income statements.
+																							</li>
+																							</ul>
+																							<b>21 July</b>
+																							<br>
+																							<ul style="list-style-position: outside;">
+																							<li>
+																								Lodge and pay June monthly 2020 business activity statement.
+																							</li>
+																							</ul>
+																							<b>28 July</b>
+																							<br>
+																							<ul style="list-style-position: outside;">
+																							<li>
+																								Super guarantee contributions should be made to a complying super fund or retirement savings account by today.
+																							</li>
+																							<li>Lodge and pay June quarterly 2020 business activity statement, (if not with a tax agent).</li>
+																							<li> June quarter PAYG instalment due.</li>
+																							</ul>
+																						</td>
+																					</tr>
+																				</tbody>
+            																</table>
+            															</td>
+            														</tr>
+            													</tbody>
+            												</table>
+            											</td>
+            										</tr>
+            									</tbody>
+            								</table>
+            							</td>
+            						</tr>
+            						<!-- Social Links -->
+            						<tr>
+            							<td align="center" valign="top">
+            								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            									<tbody>
+            										<tr>
+            											<td align="center" valign="top">
+            												<!-- FLEXIBLE TABLE CONTAINER -->
+            												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            													<tbody>
+            														<tr>
+            															<td style="border-top: 2px solid #2ab181" align="center" valign="top" width="600" class="flexibleContainerCell">
+            															<!-- CONTENT TABLE -->
+            																<!-- The real content goes here :D -->
+            																<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            																	<tbody>
+            																		<tr>
+            																			<td style="text-align:center; padding-bottom: 0" valign="top" class="textContent" align="center" >
+																							Keep on top of the latest news and deadline dates by connecting with us on
+																							<br
+            																			</td>
+            																		</tr>
+																				</tbody>	
+            																</table>
+            															</td>
+            														</tr>
+            													</tbody>
+            												</table>
+            											</td>
+            										</tr>
+            									</tbody>
+            								</table>
+            							</td>
+            						</tr>
+            						<!-- trueLocal button word of mouth -->
+            						<tr>
+            							<td align="center" valign="top">
+            								<!-- for every table there must be the following : tbody, trow, tdata -->
+            								<!-- CENTERING TABLE -->
+            								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            									<tbody>
+            										<tr>
+            											<td align="center" valign="top">
+            												<!-- FLEXIBLE TABLE CONTAINER -->
+            												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            													<tbody>
+            														<tr>
+            															<td align="center" valign="top" width="600" class="flexibleImage">
+            															<!-- CONTENT TABLE -->
+            																<!-- The real content goes here :D -->
+            																<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            																	<tbody>
+            																		<tr align="center" >
+																						<td style="border-bottom: 1px solid #2ab181; padding: 2% 0 2% 0" align="center">
+																							<a style="margin:0 7px 0 7px" href="https://linkedin.com/company/dexterous-group-pty-ltd" target="_blank"><img style="width: 6%; margin: 0 auto" src="https://campaign-image.com/zohocampaigns/ln_icon_zc_v18_284888000001362090.png"/></a>
+																							<a style="margin:0 7px 0 7px" href="https://facebook.com/dexterousgroupau" target="_blank"><img style="width: 6%; margin: 0 auto" src="https://campaign-image.com/zohocampaigns/fb_icon_zc_v18_284888000001362090.png"/></a>
+																							<a style="margin:0 7px 0 7px" href="https://www.instagram.com/thedexterousgroup/" target="_blank"><img style="width: 6%; margin: 0 auto" src="https://campaign-image.com/zohocampaigns/instagram_circle_zc_v3_284888000009485008.png"/></a>
+																						</td>
+																					</tr>
+																				</tbody>
+            																</table>
+            															</td>
+            														</tr>
+            													</tbody>
+            												</table>
+            											</td>
+            										</tr>
+            									</tbody>
+            								</table>
+            							</td>
+            						</tr>
+									<tr>
+            							<td align="center" valign="top">
+            								<!-- for every table there must be the following : tbody, trow, tdata -->
+            								<!-- CENTERING TABLE -->
+            								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            									<tbody>
+            										<tr>
+            											<td align="center" valign="top">
+            												<!-- FLEXIBLE TABLE CONTAINER -->
+            												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+            													<tbody>
+            														<tr>
+            															<td align="center" valign="top" width="600" class="flexibleImage">
+            															<!-- CONTENT TABLE -->
+            																<!-- The real content goes here :D -->
+            																<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            																	<tbody>
+            																		<tr>
+            																			<!-- footer border unique style -->
+            																			<td style="padding-bottom: 0; border-bottom: 5px solid #2ab181; border-top: 5px solid #2ab181" valign="top" class="imageContent">
+            																				<img width="600" max-width="600px" class="flexibleImage" src="https://campaign-image.com/zohocampaigns/email_footer_awards_logo_zc_v11_284888000007248056.png">
+            																			</td>
+            																		</tr>
+            																		<tr align="center" >
+																						<td style="border-bottom: 1px solid #2ab181; background-color: #f7f8f9;padding-top: 3%; padding-bottom: 3%;  ">
+																							<a style="margin:0 7px 0 7px" href="https://www.oneflare.com.au/b/dexterous-group" target="_blank"><img  src="https://campaign-image.com/zohocampaigns/oneflare_logo_68x_zc_v11_284888000007248056.png"/></a>
+																							<a style="margin:0 7px 0 7px" href="https://www.wordofmouth.com.au/reviews/dexterous-group" target="_blank"><img  src="https://campaign-image.com/zohocampaigns/word_of_mouth_logo_68x_zc_v11_284888000007248056.png"/></a>
+																							<a style="margin:0 7px 0 7px" href="https://facebook.com/dexterousgroupau" target="_blank"><img style="width:5%" src="https://campaign-image.com/zohocampaigns/fb_icon_zc_v18_284888000001362090.png"/></a>
+																							<a style="margin:0 7px 0 7px" href="https://linkedin.com/company/dexterous-group-pty-ltd" target="_blank"><img style="width:5%" src="https://campaign-image.com/zohocampaigns/ln_icon_zc_v18_284888000001362090.png"></a>
+																							<a style="margin:0 7px 0 7px" href="https://search.google.com/local/writereview?placeid=ChIJZfSlFpiuEmsRv7vU8ERQgw0" target="_blank"><img style="width:5%" src="http://campaign-image.com/zohocampaigns/google_logo_zc_v33_284888000001362090.png"></a>
+																							<a style="margin:0 7px 0 7px" href="https://www.truelocal.com.au/business/the-dexterous-group/neutral-bay" target="_blank"><img  src="https://campaign-image.com/zohocampaigns/true_local_logo_68x_zc_v11_284888000007248056.png"/></a>
+																						</td>
+																					</tr>
+																					<tr align="center" >
+																						<td valign="top" class="textContent">
+																						<br>
+																							<center>
+																							<a style="text-decoration: none; color: grey" href="https://www.dexterousgroup.com.au/?siq_name=$[FNAME]$&siq_email=$[EMAIL]$" target="_blank">Dexterous Group | Suite 113, 40 Yeo Street | Neutral Bay NSW 2089</a>
+																							<br>
+																							&nbsp;&nbsp;&nbsp;
+																							<a style="text-decoration: none; color: grey" href="https://www.dexterousgroup.com.au/?siq_name=siq_email=$[EMAIL]$" target="_blank">hello@dexterousgroup.com.au | +61 2 9167 8880 | https://dexterousgroup.com.au</a>
+																							<br>
+																							&nbsp;&nbsp;&nbsp;
+																							<a style="text-decoration: none; font-size: 10px" href="https://www.dexterousgroup.com.au/unsubscribe/?siq_name=$[FNAME]$&siq_email=$[EMAIL]$&email=$[EMAIL]$&fname=$[FNAME]$&lname=$[LNAME]$" >not interested ? | unsubscribe from this lis</a><a href="$[LI:UNSUBSCRIBE]$" style="text-decoration: none; font-size: 10px">t</a>
+																							</center>
+																						</td>
+																					</tr>
+																				</tbody>
+            																</table>
+            															</td>
+            														</tr>
+            													</tbody>
+            												</table>
+            											</td>
+            										</tr>
+            									</tbody>
+            								</table>
+            							</td>
+            						</tr>
+            					</tbody>
+            				</table>
+            			</td>
+            		</tr>
+            	</tbody>
+            </table>
+        </center>
+    </body>
+</html>
